@@ -17,10 +17,10 @@ export const Page1 = () => {
 export const Page2 = () => {
     return (
         <div className="slide two">
-            <div className="content">
-            
+            <div className="content">            
             <h1>Skills</h1>
             <h2>Front-end Software Engineer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dolorem, quia possimus placeat explicabo adipisci ipsa neque aspernatur temporibus ut amet eius vitae. Voluptatibus, excepturi. Nisi at saepe libero eaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore omnis sint perspiciatis totam aperiam facere dolor, commodi sit illo amet quam, sed beatae vitae cupiditate culpa dicta veritatis officiis dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dolorem, quia possimus placeat explicabo adipisci ipsa neque aspernatur temporibus ut amet eius vitae. Voluptatibus, excepturi. Nisi at saepe libero eaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore omnis sint perspiciatis totam aperiam facere dolor, commodi sit illo amet quam, sed beatae vitae cupiditate culpa dicta veritatis officiis dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>Porro, mollitia expedita animi molestiae consequatur praesentium nam voluptate sint ullam officiis nihil architecto itaque in nulla unde ab? Esse, voluptatibus soluta.</p>
             </div>
@@ -31,12 +31,12 @@ export const Page2 = () => {
 export const Page3 = () => {
     return (
         <div className="slide thr">
-            <div className="content">
-            
+            <div className="content">            
             <h1>Contacts:</h1>
             <h2>Front-end Software Engineer</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore dolorem, quia possimus placeat explicabo adipisci ipsa neque aspernatur temporibus ut amet eius vitae. Voluptatibus, excepturi. Nisi at saepe libero eaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore omnis sint perspiciatis totam aperiam facere dolor, commodi sit illo amet quam, sed beatae vitae cupiditate culpa dicta veritatis officiis dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <p>Porro, mollitia expedita animi molestiae consequatur praesentium nam voluptate sint ullam officiis nihil architecto itaque in nulla unde ab? Esse, voluptatibus soluta.</p>
+            <h3>+34 642 263 000</h3>
             </div>
         </div>
     )
