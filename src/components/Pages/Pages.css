@@ -1,0 +1,41 @@
+.App .slide {
+    /* border: 1px solid red; */
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px grey;
+    display: flex;
+    height: 100%;
+}
+
+.App .slide .content {
+    padding: 2rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.App .slide .content img{
+    width: 200px;
+    border-radius: 80px;
+    box-shadow: 3px 3px 10px black;
+}
+
+.App .slide.one {
+    background: url(../../img/2.jpg) center center no-repeat;
+    /* background-color: white; */
+    background-size: cover;
+}
+.App .slide.two {
+    background: url(../../img/3.jpg) center center no-repeat;
+    background-size: cover;
+}
+.App .slide.thr {
+    background: url(../../img/4.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.App .slide p {
+    padding: 1rem 10rem 0 10rem;
+}
+
