@@ -32,8 +32,23 @@
     animation: bot 0.4s cubic-bezier(0.42, 0, 1, 1.74);
 }
 
-.App .slide .content .bot .line svg {
-    margin: 2rem;
+.App .slide .content .bot .line {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.App .slide .content .bot .line svg,img {
+    margin: 1rem;
+    transition: 0.1s ease-in-out all;
+    /* border: 1px solid red; */
+}
+
+.App .slide .content .bot .line svg:hover,img:hover {
+    transform: scale(1.1);
+    border: 1px solid yellowgreen;
 }
 
 .App .slide .content img.avat{
