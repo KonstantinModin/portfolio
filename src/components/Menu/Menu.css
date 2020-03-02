@@ -14,7 +14,7 @@
 
 .App .menu a.selected {
     /* text-shadow: 1px 1px 10px yellowgreen; */
-    background-color: rgba(250, 235, 215, 0.404);    
+    text-decoration: underline;   
 }
 
 .App .menu a:hover {

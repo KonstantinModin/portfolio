@@ -1,21 +1,20 @@
-import React from 'react';
-import NavigationSlider from './NavigationSlider';
-import Menu from './Menu';
+import React from "react";
+import NavigationSlider from "./NavigationSlider";
+import Menu from "./Menu";
 
 import { Provider } from "react-awesome-slider/dist/navigation";
 
-import './App.css';
+import "./App.css";
 
-const App = () => {  
-
-  return (<>    
-    <div className="App">
-      <Provider slug={'one'}>
-        <Menu/>
-        <NavigationSlider />
-      </Provider>
-    </div></>
-  );
-}
+const App = () => {
+    return (
+        <div className="App">
+            <Provider slug="one">
+                <Menu />
+                <NavigationSlider />
+            </Provider>
+        </div>
+    );
+};
 
 export default App;

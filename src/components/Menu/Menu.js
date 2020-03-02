@@ -3,12 +3,7 @@ import { Navbar, Nav } from "react-bootstrap";
 import './Menu.css';
 import { Link, withNavigationContext } from "react-awesome-slider/dist/navigation";
 
-const Menu = ({ fullpage }) => {
-    
-    
-    const { slug } = fullpage.navigation;
-    console.log(slug);
-
+const Menu = ({ fullpage: { navigation: { slug }} }) => {
     return (
         <Navbar
             className="menu"
