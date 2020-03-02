@@ -3,21 +3,19 @@ import avat from '../../img/Avat.jpg';
 import back1 from '../../img/2.jpg';
 import back2 from '../../img/5.jpg';
 import back3 from '../../img/8.jpg';
+
+import cell from '../../img/cell.png';
+import telegr from '../../img/telegr.png';
+import whatsapp from '../../img/whatsapp.png';
+import viber from '../../img/viber.png';
+
+import gmail from '../../img/gmail.png';
+
+import git from '../../img/git.png';
+import face from '../../img/face.png';
+import linkedin from '../../img/in.png';
+import cw from '../../img/cw.png';
 import inst from '../../img/inst.png';
-
-import { Icon, InlineIcon } from '@iconify/react';
-
-import mobilePhone from '@iconify/icons-twemoji/mobile-phone';
-import telegramIcon from '@iconify/icons-logos/telegram';
-import whatsappIcon from '@iconify/icons-logos/whatsapp';
-import viberIcon from '@iconify/icons-fa-brands/viber';
-
-import eMail from '@iconify/icons-noto-v1/e-mail';
-
-import githubIcon from '@iconify/icons-logos/github-icon';
-import facebookIcon from '@iconify/icons-logos/facebook';
-import codewarsIcon from '@iconify/icons-simple-icons/codewars';
-import linkedinIcon from '@iconify/icons-simple-icons/linkedin';
 
 import './Pages.css';
 
@@ -69,30 +67,47 @@ export const Page3 = () => {
             <img className="back" src={back3} alt="back3"/>             
             <div className="content">
                 <div className="top">
-                    <h1>Contacts</h1>                    
+                    <h1>Contacts:</h1>                    
                 </div>
                 <div className="bot">
                     <div className="line">
-                        <h3>You can reach me at +34 642 263 271, available for: </h3>
+                        <h3>You can reach me at <a href="tel:+34642263271">+34 642 263 271</a>, available for: </h3>
                         <div>
-                            <Icon icon={mobilePhone} width="50"/>
-                            <Icon icon={telegramIcon} width="50"/>
-                            <Icon icon={whatsappIcon} width="50"/>
-                            <Icon icon={viberIcon} width="50" color="#7D3DAF"/>
+                            <a href="tel:+34642263271">
+                                <img src={cell} width="50" alt="cell phone logo" />
+                            </a>
+                            <a href="https://t.me/Konstantin_Modin">
+                                <img src={telegr} width="50" alt="telegram logo"/>
+                            </a>
+                            <a href="whatsapp://send?phone=+34642263271">                            
+                                <img src={whatsapp} width="50" alt="whatsapp logo"/>
+                            </a>
+                            <a href="viber://add?number=%2B34642263271">
+                                <img src={viber} width="50" alt="viber logo"/>
+                            </a>
                         </div>
                     </div>
-                    <div className="line">
-                        
-                        <h3><Icon icon={eMail} width="75"/>konstantin.v.modin@gmail.com</h3>
+                    <div className="line">                        
+                        <a href="mailto:konstantin.v.modin@gmail.com"><h3><img src={gmail} width="50" />konstantin.v.modin@gmail.com</h3></a>
                     </div>
                     <div className="line">
-                        <h3>Links</h3>
-                        <div>
-                            <Icon icon={githubIcon} width="75"/>
-                            <Icon icon={facebookIcon} width="75"/>
-                            <Icon icon={linkedinIcon} width="75" color="#0077B5"/>
-                            <Icon icon={codewarsIcon} width="75" color="#B92F21"/>
-                            <img src={inst} alt="instagram logo" width="85"/>
+                        <h3>Links:</h3>
+                        <div>                            
+                            <a href="https://github.com/KonstantinModin" target="_blank" rel="noopener noreferrer">
+                                <img src={git} alt="git logo" width="85"/>
+                            </a>
+                            <a href="https://www.facebook.com/konstantin.modin.1" target="_blank" rel="noopener noreferrer">
+                                <img src={face} alt="facebook logo" width="85"/>                                
+                            </a>
+                            <a href="https://www.linkedin.com/in/konstantin-modin" target="_blank" rel="noopener noreferrer">
+                                <img src={linkedin} alt="linkedin logo" width="85"/>                                                              
+                            </a>
+                            <a href="https://www.codewars.com/users/Konstantin%20Modin" target="_blank" rel="noopener noreferrer">
+                                <img src={cw} alt="codewars logo" width="85"/>                                                                                            
+                            </a>
+                            <a href="https://www.instagram.com/kostya7777777/" target="_blank" rel="noopener noreferrer">
+                                <img src={inst} alt="instagram logo" width="85"/>                                                                                                                            
+                            </a>
                         </div>
                     </div>
                 </div>

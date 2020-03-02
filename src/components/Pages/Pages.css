@@ -37,18 +37,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1rem;
     
 }
 
+.App .slide .content .bot a {
+    color: white;
+    text-decoration: none;
+    transition: 0.1s cubic-bezier(0,-0.85,1,1.84) all;    
+}
+
+.App .slide .content .bot a:hover {    
+    text-decoration: none;
+    transform: scale(1.2);
+}
+
+
+
 .App .slide .content .bot .line svg,img {
     margin: 1rem;
-    transition: 0.1s ease-in-out all;
+    transition: 0.1s cubic-bezier(0,-0.85,1,1.84) all;
     /* border: 1px solid red; */
 }
 
-.App .slide .content .bot .line svg:hover,img:hover {
-    transform: scale(1.1);
-    border: 1px solid yellowgreen;
+.App .slide .content .bot .line img:hover {
+    transform: scale(1.2);
+    /* border: 1px solid yellowgreen; */
 }
 
 .App .slide .content img.avat{
