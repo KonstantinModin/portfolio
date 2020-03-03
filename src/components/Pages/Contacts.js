@@ -20,10 +20,12 @@ const Contacts = () => {
     return (
         <>        
             <img className="back" src={back3} alt="back3"/>             
-            <div className="content">                
+            <div className="content">
+                <div className="top hide"><h1>Contacts:</h1></div>                
                 <div className="bot">
                     <div className="line">
-                        <h2>You can reach me at <a href="tel:+34642263271">+34 642 263 271</a>, available for: </h2>
+                        <h2>You can reach me at</h2>
+                        <h2><a href="tel:+34642263271">+34 642 263 271</a>, available for: </h2>
                         <div>
                             <a href="tel:+34642263271">
                                 <img src={cell} width="85" alt="cell phone logo" />
@@ -39,7 +41,8 @@ const Contacts = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="line">                        
+                    <div className="line">
+                        <h2>E-mail:</h2>                        
                         <a href="mailto:konstantin.v.modin@gmail.com"><h2><img src={gmail} alt="gmail logo" width="85" />konstantin.v.modin@gmail.com</h2></a>
                     </div>
                     <div className="line">

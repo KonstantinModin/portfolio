@@ -16,9 +16,10 @@ const Menu = ({ fullpage: { navigation: { slug }} }) => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">                
                 <Nav className="ml-auto">
-                    <Link className={slug === 'one'? 'selected':''} href='one'>About</Link>
-                    <Link className={slug === 'two'? 'selected':''} href='two'>Skills</Link>
-                    <Link className={slug === 'thr'? 'selected':''} href='thr'>Contacts</Link>
+                    <Link className={slug === 'about'? 'selected':''} href='about'>About</Link>
+                    <Link className={slug === 'skills'? 'selected':''} href='skills'>Skills</Link>
+                    <Link className={slug === 'projects'? 'selected':''} href='projects'>Projects</Link>
+                    <Link className={slug === 'contacts'? 'selected':''} href='contacts'>Contacts</Link>                    
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

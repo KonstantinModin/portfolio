@@ -29,3 +29,15 @@
     text-decoration: none;
     transform: scale(1.05);
 }
+
+@media screen and (max-width: 600px) {
+    .App .menu {           
+        background: rgba(255, 255, 255, 0.5);
+        
+        /* display: block; */
+    }
+
+    .App .menu .logo {
+        font-size: 1.5rem;
+    }
+}

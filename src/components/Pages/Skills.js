@@ -34,7 +34,8 @@ const Skills = () => {
     return (
         <>
             <img className="back" src={back2} alt="back2"/>            
-            <div className="content">                
+            <div className="content">
+                <div className="top hide"><h1>Skills:</h1></div>                   
                 <div className="bot">
                     <div className="line">
                         <h3>Technologies</h3>
@@ -87,8 +88,8 @@ const Skills = () => {
                     <div className="line">
                         <h3>Ranked in Top-500 on <a href="https://www.codewars.com/users/leaderboard" target="_blank" rel="noopener noreferrer">codewars.com</a></h3>
                         <div>
-                            <a target="_blank" rel="noopener noreferrer"href="https://www.codewars.com/users/Konstantin%20Modin">
-                                <img src="https://www.codewars.com/users/Konstantin%20Modin/badges/large" alt="codewars badge large" />
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.codewars.com/users/Konstantin%20Modin">
+                                <img className="cw" src="https://www.codewars.com/users/Konstantin%20Modin/badges/large" alt="codewars badge large" />
                             </a>
                         </div>
                     </div>

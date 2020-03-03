@@ -1,5 +1,5 @@
 import React from "react";
-import { About, Skills, Contacts } from "../Pages";
+import { About, Skills, Contacts, Projects } from "../Pages";
 import AwesomeSlider from "react-awesome-slider";
 import { withNavigationHandlers } from "react-awesome-slider/dist/navigation";
 import "react-awesome-slider/dist/styles.css";
@@ -12,20 +12,27 @@ const NavigationSlider = () => {
         <Slider
             className="awesome-slider"
             animation="cubeAnimation"
+            infinite={true}
+            mobileTouch={true}
             media={[
                 {
-                    slug: "one",
-                    className: "slide one",
+                    slug: "about",
+                    className: "slide",
                     children: <About />
                 },
                 {
-                    slug: "two",
-                    className: "slide two",
+                    slug: "skills",
+                    className: "slide",
                     children: <Skills />
                 },
                 {
-                    slug: "thr",
-                    className: "slide thr",
+                    slug: "projects",
+                    className: "slide",
+                    children: <Projects />
+                },
+                {
+                    slug: "contacts",
+                    className: "slide",
                     children: <Contacts />
                 }
             ]}

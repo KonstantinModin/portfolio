@@ -1,6 +1,7 @@
 import React from 'react';
 import avat from '../../img/Avat.jpg';
 import back1 from '../../img/2.jpg';
+import { Link } from "react-awesome-slider/dist/navigation";
 
 const About = () => {
     return (
@@ -10,10 +11,10 @@ const About = () => {
                 <div className="top">
                     <img className="avat" src={avat} alt="konstantin"/>
                     <h1>Whats'up! I am Konstantin Modin</h1>
-                    <h2>Front-end Software Engineer</h2>
+                    <h2>React Front-end Software Engineer</h2>
                 </div>
                 <div className="bot">
-                    <p>Bla-bla-bla</p>
+                    <Link className='button' href='skills'>Next</Link>
                 </div>
             </div>      
         </>

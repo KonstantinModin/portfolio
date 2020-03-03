@@ -10,7 +10,7 @@ import "./Pages.css";
 const App = () => {
     return (
         <div className="App">
-            <Provider slug="one">
+            <Provider slug="about">
                 <Menu />
                 <NavigationSlider />
             </Provider>
