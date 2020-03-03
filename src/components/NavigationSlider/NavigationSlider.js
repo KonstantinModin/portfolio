@@ -1,5 +1,5 @@
 import React from "react";
-import { Page1, Page2, Page3 } from "../Pages";
+import { About, Skills, Contacts } from "../Pages";
 import AwesomeSlider from "react-awesome-slider";
 import { withNavigationHandlers } from "react-awesome-slider/dist/navigation";
 import "react-awesome-slider/dist/styles.css";
@@ -16,17 +16,17 @@ const NavigationSlider = () => {
                 {
                     slug: "one",
                     className: "slide one",
-                    children: <Page1 />
+                    children: <About />
                 },
                 {
                     slug: "two",
                     className: "slide two",
-                    children: <Page2 />
+                    children: <Skills />
                 },
                 {
                     slug: "thr",
                     className: "slide thr",
-                    children: <Page3 />
+                    children: <Contacts />
                 }
             ]}
         />

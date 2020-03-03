@@ -1,3 +1,5 @@
-import { Page1, Page2, Page3 } from './Pages';
+import About from './About';
+import Skills from './Skills';
+import Contacts from './Contacts';
 
-export { Page1, Page2, Page3 };
+export { About, Skills, Contacts };
