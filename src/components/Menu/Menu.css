@@ -4,16 +4,14 @@
 }
 
 .App .menu a {
-    color: white;
-    /* margin: 0 2rem; */
+    color: white;    
     margin-right: 2rem;
     font-size: 1.5rem;
     transition: ease-in-out 0.1s all;
     text-shadow: 1px 1px 10px grey;
 }
 
-.App .menu a.selected {
-    /* text-shadow: 1px 1px 10px yellowgreen; */
+.App .menu a.selected {    
     text-decoration: underline;   
 }
 
@@ -32,9 +30,7 @@
 
 @media screen and (max-width: 600px) {
     .App .menu {           
-        background: rgba(255, 255, 255, 0.5);
-        
-        /* display: block; */
+        background: rgba(255, 255, 255, 0.5);        
     }
 
     .App .menu .logo {

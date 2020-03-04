@@ -20,7 +20,7 @@ const Contacts = () => {
     return (
         <>        
             <img className="back" src={back3} alt="back3"/>             
-            <div className="content">
+            <div className="content contacts">
                 <div className="top hide"><h1>Contacts:</h1></div>                
                 <div className="bot">
                     <div className="line">
