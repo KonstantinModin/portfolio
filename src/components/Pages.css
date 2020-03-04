@@ -57,6 +57,7 @@
     align-items: flex-start;
     width: 30rem;
     margin-left: 2rem;
+    text-align: left;
 }
 
 .App .slide .content .bot .line {    
@@ -159,6 +160,12 @@
     }
 }
 
+@media screen and (max-width: 520px) {
+    #root > div > div > div > div.awssld__controls {
+        visibility: visible;        
+    }
+}
+
 /* mobile */
 @media screen and (max-width: 600px) {
     .App .slide .content {
@@ -175,6 +182,7 @@
         align-items: center;
         width: 100%;
         margin-left: 0;
+        text-align: center;
     }
     .App .slide .content .bot .line h2,h3 {        
         font-size: 1.5rem;       
@@ -190,6 +198,12 @@
     .App .slide .content .bot .line img.cw {
         margin: 0.1rem;        
         width: 90vw;        
+    }
+    .App .slide .content .top {        
+        animation: none;        
+    }    
+    .App .slide .content .bot {           
+        animation: none;
     }   
 
 }

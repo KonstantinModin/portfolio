@@ -22,7 +22,7 @@ const Projects = () => {
                     </a>
                     <a href="https://lucid-volhard-4ac45f.netlify.com/" target="_blank" rel="noopener noreferrer" >
                         <div className="row">
-                                <img src={proj2} alt="project1 logo" />
+                                <img src={proj2} alt="project2 logo" />
                             <div>
                                 <h3>React experiments</h3>
                                 <h5>Some home projects with React/Redux including data fetching, 

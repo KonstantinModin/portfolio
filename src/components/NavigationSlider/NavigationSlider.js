@@ -12,8 +12,10 @@ const NavigationSlider = () => {
         <Slider
             className="awesome-slider"
             animation="cubeAnimation"
+            organicArrows={true}
+            buttons={true}
             infinite={true}
-            mobileTouch={true}
+            // mobileTouch={true}
             media={[
                 {
                     slug: "about",
