@@ -34,7 +34,7 @@ const Skills = () => {
     return (
         <>
             <img className="back" src={back2} alt="back2"/>            
-            <div className="content">
+            <div className="content skills">
                 <div className="top hide"><h1>Skills:</h1></div>                   
                 <div className="bot">
                     <div className="line">
