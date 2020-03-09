@@ -5,6 +5,7 @@ import back2 from '../../img/5.jpg';
 import reactLogo from '../../img/react.png';
 import reduxLogo from '../../img/reduxlogo.png';
 import js from '../../img/js.png';
+import ts from '../../img/ts.png';
 import html from '../../img/html.png';
 import css from '../../img/css.png';
 import jq from '../../img/jq.png';
@@ -45,6 +46,7 @@ const Skills = () => {
                             <img src={js} alt="js logo" width="85" />
                             <img src={node} alt="node logo" width="85" />
                             <img src={jq} alt="jq logo" width="85" />
+                            <img src={ts} alt="ts logo" width="85" />
                             <img src={html} alt="html logo" width="85" />
                             <img src={css} alt="css logo" width="85" />
                             <img src={lodash} alt="lodash logo" width="85" />
