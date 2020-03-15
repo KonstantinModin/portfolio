@@ -10,7 +10,7 @@ import html from "../../img/html.png";
 import css from "../../img/css.png";
 import jq from "../../img/jq.png";
 // import node from "../../img/node.png";
-import lodash from "../../img/lodash.png";
+// import lodash from "../../img/lodash.png";
 // import gatsby from "../../img/gatsby.png";
 // import wp from "../../img/wp.png";
 import boot from "../../img/bootstrap.png";
@@ -18,9 +18,9 @@ import sass from "../../img/sass.png";
 // import less from "../../img/less.png";
 // import webpack from "../../img/webpack.png";
 // import babel from "../../img/babel.png";
-import jest from "../../img/jest.png";
-import chai from "../../img/chai.png";
-import mocha from "../../img/mocha.png";
+// import jest from "../../img/jest.png";
+// import chai from "../../img/chai.png";
+// import mocha from "../../img/mocha.png";
 import npm from "../../img/npm.png";
 import rest from "../../img/rest.png";
 import git from "../../img/git.png";
@@ -43,15 +43,63 @@ const Skills = () => {
                     <div className="line">
                         <h3>Technologies</h3>
                         <div className="tech">
-                            <img src={reactLogo} alt="react logo" width="85" />
-                            <img src={reduxLogo} alt="redux logo" width="85" />
-                            <img src={js} alt="js logo" width="85" />
+                            <img
+                                src={reactLogo}
+                                alt="react logo"
+                                width="85"
+                                style={{
+                                    backgroundColor: "white",
+                                    borderRadius: "5px"
+                                }}
+                            />
+                            <img
+                                src={reduxLogo}
+                                alt="redux logo"
+                                width="85"
+                                style={{
+                                    backgroundColor: "white",
+                                    borderRadius: "5px"
+                                }}
+                            />
+                            <img
+                                src={js}
+                                alt="js logo"
+                                width="85"
+                                style={{
+                                    backgroundColor: "white",
+                                    borderRadius: "5px"
+                                }}
+                            />
+                            <img
+                                src={html}
+                                alt="html logo"
+                                width="85"
+                                style={{
+                                    backgroundColor: "white",
+                                    borderRadius: "5px"
+                                }}
+                            />
+                            <img
+                                src={css}
+                                alt="css logo"
+                                width="85"
+                                style={{
+                                    backgroundColor: "white",
+                                    borderRadius: "5px"
+                                }}
+                            />
                             {/* <img src={node} alt="node logo" width="85" /> */}
-                            <img src={jq} alt="jq logo" width="85" />
+                            <img
+                                src={jq}
+                                alt="jq logo"
+                                width="85"
+                                style={{
+                                    backgroundColor: "white",
+                                    borderRadius: "5px"
+                                }}
+                            />
                             <img src={ts} alt="ts logo" width="85" />
-                            <img src={html} alt="html logo" width="85" />
-                            <img src={css} alt="css logo" width="85" />
-                            <img src={lodash} alt="lodash logo" width="85" />
+                            {/* <img src={lodash} alt="lodash logo" width="85" /> */}
                             {/* <img src={gatsby} alt="gatsby logo" width="85" /> */}
                             {/* <img src={wp} alt="wp logo" width="85" /> */}
                             <img src={boot} alt="boot logo" width="85" />
@@ -59,12 +107,20 @@ const Skills = () => {
                             {/* <img src={less} alt="less logo" width="85" /> */}
                             {/* <img src={webpack} alt="webpack logo" width="85" /> */}
                             {/* <img src={babel} alt="babel logo" width="85" /> */}
-                            <img src={jest} alt="jest logo" width="85" />
-                            <img src={chai} alt="chai logo" width="85" />
-                            <img src={mocha} alt="mocha logo" width="85" />
+                            {/* <img src={jest} alt="jest logo" width="85" /> */}
+                            {/* <img src={chai} alt="chai logo" width="85" /> */}
+                            {/* <img src={mocha} alt="mocha logo" width="85" /> */}
                             <img src={npm} alt="npm logo" width="85" />
                             <img src={rest} alt="rest logo" width="85" />
-                            <img src={git} alt="git logo" width="85" />
+                            <img
+                                src={git}
+                                alt="git logo"
+                                width="85"
+                                style={{
+                                    backgroundColor: "white",
+                                    borderRadius: "5px"
+                                }}
+                            />
                         </div>
                     </div>
                     <div className="line">
