@@ -11,7 +11,7 @@ const About = () => {
                 <div className="top">
                     <img className="avat" src={avat} alt="konstantin" />
                     <h1>Hello! I am Konstantin Modin</h1>
-                    <h2>React Front-end Developer</h2>
+                    <h2>React Front-End Web Developer</h2>
                 </div>
                 <div className="bot">
                     <Link className="button" href="skills">

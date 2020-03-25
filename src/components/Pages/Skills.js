@@ -1,29 +1,35 @@
 import React from "react";
 import back2 from "../../img/5.jpg";
 
-//skills
+//main skills
 import reactLogo from "../../img/react.png";
 import reduxLogo from "../../img/reduxlogo.png";
 import js from "../../img/js.png";
-import ts from "../../img/ts.png";
 import html from "../../img/html.png";
 import css from "../../img/css.png";
+import boot from "../../img/bootstrap.png";
+import npm from "../../img/npm.png";
+import rest from "../../img/rest.png";
+import git from "../../img/git.png";
+
+// additional skills
 import jq from "../../img/jq.png";
-// import node from "../../img/node.png";
-// import lodash from "../../img/lodash.png";
+import ts from "../../img/ts.png";
+import sass from "../../img/sass.png";
+import lodash from "../../img/lodash.png";
+import graphql from "../../img/graphql.png";
+import apollo from "../../img/apollo.png";
+import ph from "../../img/ph.png";
+
 // import gatsby from "../../img/gatsby.png";
 // import wp from "../../img/wp.png";
-import boot from "../../img/bootstrap.png";
-import sass from "../../img/sass.png";
+// import node from "../../img/node.png";
 // import less from "../../img/less.png";
 // import webpack from "../../img/webpack.png";
 // import babel from "../../img/babel.png";
 // import jest from "../../img/jest.png";
 // import chai from "../../img/chai.png";
 // import mocha from "../../img/mocha.png";
-import npm from "../../img/npm.png";
-import rest from "../../img/rest.png";
-import git from "../../img/git.png";
 
 //languages
 import eng from "../../img/eng.png";
@@ -36,12 +42,12 @@ const Skills = () => {
         <>
             <img className="back" src={back2} alt="back2" />
             <div className="content skills">
-                <div className="top hide">
+                {/* <div className="top hide">
                     <h1>Skills:</h1>
-                </div>
+                </div> */}
                 <div className="bot">
                     <div className="line">
-                        <h3>Technologies</h3>
+                        <h3>Main skills:</h3>
                         <div className="tech">
                             <img
                                 src={reactLogo}
@@ -88,28 +94,7 @@ const Skills = () => {
                                     borderRadius: "5px"
                                 }}
                             />
-                            {/* <img src={node} alt="node logo" width="85" /> */}
-                            <img
-                                src={jq}
-                                alt="jq logo"
-                                width="85"
-                                style={{
-                                    backgroundColor: "white",
-                                    borderRadius: "5px"
-                                }}
-                            />
-                            <img src={ts} alt="ts logo" width="85" />
-                            {/* <img src={lodash} alt="lodash logo" width="85" /> */}
-                            {/* <img src={gatsby} alt="gatsby logo" width="85" /> */}
-                            {/* <img src={wp} alt="wp logo" width="85" /> */}
                             <img src={boot} alt="boot logo" width="85" />
-                            <img src={sass} alt="sass logo" width="85" />
-                            {/* <img src={less} alt="less logo" width="85" /> */}
-                            {/* <img src={webpack} alt="webpack logo" width="85" /> */}
-                            {/* <img src={babel} alt="babel logo" width="85" /> */}
-                            {/* <img src={jest} alt="jest logo" width="85" /> */}
-                            {/* <img src={chai} alt="chai logo" width="85" /> */}
-                            {/* <img src={mocha} alt="mocha logo" width="85" /> */}
                             <img src={npm} alt="npm logo" width="85" />
                             <img src={rest} alt="rest logo" width="85" />
                             <img
@@ -121,6 +106,35 @@ const Skills = () => {
                                     borderRadius: "5px"
                                 }}
                             />
+                            {/* <img src={node} alt="node logo" width="85" /> */}
+
+                            {/* <img src={gatsby} alt="gatsby logo" width="85" /> */}
+                            {/* <img src={wp} alt="wp logo" width="85" /> */}
+
+                            {/* <img src={less} alt="less logo" width="85" /> */}
+                            {/* <img src={webpack} alt="webpack logo" width="85" /> */}
+                            {/* <img src={babel} alt="babel logo" width="85" /> */}
+                            {/* <img src={jest} alt="jest logo" width="85" /> */}
+                            {/* <img src={chai} alt="chai logo" width="85" /> */}
+                            {/* <img src={mocha} alt="mocha logo" width="85" /> */}
+                        </div>
+                        <h3>Additional skills:</h3>
+                        <div className="tech">
+                            <img
+                                src={jq}
+                                alt="jq logo"
+                                width="85"
+                                style={{
+                                    backgroundColor: "white",
+                                    borderRadius: "5px"
+                                }}
+                            />
+                            <img src={ts} alt="ts logo" width="85" />
+                            <img src={sass} alt="sass logo" width="85" />
+                            <img src={lodash} alt="lodash logo" width="85" />
+                            <img src={graphql} alt="graphql logo" width="85" />
+                            <img src={apollo} alt="apollo logo" width="85" />
+                            <img src={ph} alt="photoshop logo" width="85" />
                         </div>
                     </div>
                     <div className="line">
@@ -159,7 +173,7 @@ const Skills = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                codewars.com
+                                codewars.com with JavaScript
                             </a>
                         </h3>
                         <div>

@@ -110,8 +110,8 @@
 
 .App .slide .content img.avat {
     width: 200px;
-    border-radius: 50px;
-    box-shadow: 3px 3px 10px black;
+    /* border-radius: 5px; */
+    /* box-shadow: 3px 3px 10px rgb(255, 255, 255); */
 }
 
 .App .slide .content p {
@@ -129,7 +129,7 @@
     /* animation: zoom 30s infinite; */
 }
 
-@keyframes zoom {
+/* @keyframes zoom {
     0% {
         transform: scale(1.1) translateX(0) translateY(-1%);
     }
@@ -169,7 +169,7 @@
     100% {
         transform: translateY(0);
     }
-}
+} */
 
 @media screen and (max-width: 520px) {
     #root > div > div > div > div.awssld__controls {
@@ -183,7 +183,11 @@
         padding: 0;
     }
     .App .slide .content .top {
-        margin-top: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    .App .slide .content .top h1 {
+        font-size: 1.5rem;
     }
     .App .slide .content .bot .row {
         flex-direction: column;
@@ -197,15 +201,15 @@
     }
     .App .slide .content .bot .line h2,
     h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .App .slide .content .bot .line img {
         margin: 0.1rem;
-        width: 40px;
+        width: 35px;
     }
     .App .slide .content.contacts .bot .line img {
         margin: 0 0.5rem;
-        width: 60px;
+        width: 55px;
     }
     .App .slide .content .bot .line img.cw {
         margin: 0.1rem;
@@ -222,15 +226,15 @@
 /* iphone 5 */
 @media screen and (max-width: 374px) {
     .App .slide .content .top {
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
     .App .slide .content .bot .line img {
-        margin: 0.1rem;
-        width: 30px;
+        margin: 0;
+        width: 25px;
     }
     .App .slide .content .bot h3,
     h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .App .slide .content .bot .line h2 {
         font-size: 1.2rem;
