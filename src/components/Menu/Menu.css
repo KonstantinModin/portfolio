@@ -1,18 +1,20 @@
-.App .menu {    
+.App .menu {
     z-index: 100;
     background: transparent;
+    border: 1px solid white;
+    height: 66px;
 }
 
 .App .menu a {
-    color: white;    
+    color: white;
     margin-right: 2rem;
     font-size: 1.5rem;
     transition: ease-in-out 0.1s all;
     text-shadow: 1px 1px 10px grey;
 }
 
-.App .menu a.selected {    
-    text-decoration: underline;   
+.App .menu a.selected {
+    text-decoration: underline;
 }
 
 .App .menu a:hover {
@@ -29,8 +31,9 @@
 }
 
 @media screen and (max-width: 600px) {
-    .App .menu {           
-        background: rgba(255, 255, 255, 0.5);        
+    .App .menu {
+        background: rgba(255, 255, 255, 0.5);
+        height: 58px;
     }
 
     .App .menu .logo {
