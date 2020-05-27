@@ -6,7 +6,6 @@ Here is my portfolio as a React Front-End Web Developer.
 
 -   react-awesome-slider with navigation
 -   react-bootstrap
--   useState
 
 ## Authors
 
