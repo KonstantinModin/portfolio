@@ -1,6 +1,8 @@
 .App {
     height: 100vh;
     width: 100vw;
+    text-shadow: 1px 1px 10px grey;
+    color: rgb(255, 255, 255);
 }
 
 .App .awssld--organic-arrows {

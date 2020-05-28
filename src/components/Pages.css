@@ -7,10 +7,8 @@
 }
 
 .App .slide .content {
-    text-shadow: 1px 1px 10px grey;
-    color: rgb(255, 255, 255);
     /* border: 1px solid red; */
-    padding: 2rem 0.5rem 6rem 0.5rem;
+    padding: 2rem 2rem 6rem 2rem;
     /* margin-top: 2rem; */
     display: flex;
     flex-direction: column;
@@ -48,7 +46,7 @@
     margin: 1rem;
 }
 
-.App .slide .content .bot .button {
+/* .App .slide .content .bot .button {
     margin: 1rem;
     padding: 0.8rem 3rem;
     background: rgba(255, 255, 255, 0.103);
@@ -57,11 +55,12 @@
     color: white;
     font-size: 1.5rem;
     transition: 0.1s cubic-bezier(0.42, 0, 1, 1.74);
-}
+} */
 
-.App .slide .content .bot .button:hover {
+/* .App .slide .content .bot .button:hover {
     transform: scale(1.2);
-}
+    border: 1px solid red;
+} */
 
 .App .slide .content .bot .row div {
     display: flex;
@@ -103,7 +102,7 @@
 
 .App .slide .content .bot a:hover {
     text-decoration: none;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .App .slide .content .bot .line img {
@@ -120,7 +119,7 @@
 }
 
 .App .slide .content img.avat {
-    width: 200px;
+    /* width: 200px; */
     /* border-radius: 5px; */
     /* box-shadow: 3px 3px 10px rgb(255, 255, 255); */
 }
@@ -191,7 +190,11 @@
 /* mobile */
 @media screen and (max-width: 600px) {
     .App .slide .content {
-        padding: 0;
+        padding: 0.2rem;
+    }
+    .App .slide .content.contacts {
+        padding: 3rem;
+        /* border: 1px solid red; */
     }
     .App .slide .content .top {
         margin-top: 2rem;
@@ -216,11 +219,11 @@
     }
     .App .slide .content .bot .line img {
         margin: 0.1rem;
-        width: 35px;
+        width: 38px;
     }
     .App .slide .content.contacts .bot .line img {
         margin: 0 0.5rem;
-        width: 55px;
+        width: 50px;
     }
     .App .slide .content .bot .line img.cw {
         margin: 0.1rem;
@@ -232,26 +235,41 @@
     .App .slide .content .bot {
         animation: none;
     }
+    .App .slide .content.skills .bot .line img {
+        margin: 0.4rem;
+        /* border: 1px solid red; */
+    }
 }
 
 /* iphone 5 */
 @media screen and (max-width: 374px) {
     .App .slide .content .top {
-        margin-top: 4rem;
+        margin-top: 0.5rem;
     }
     .App .slide .content .bot .line img {
         margin: 0;
-        width: 25px;
+        width: 30px;
     }
     .App .slide .content .bot h3,
     h2 {
         font-size: 1rem;
+        /* font-weight: 100; */
     }
     .App .slide .content .bot .line h2 {
         font-size: 1.2rem;
     }
     .App .slide .content .bot .row h5 {
         font-size: 1rem;
+    }
+    .App .slide .content.skills .bot .line img {
+        margin: 0.2rem;
+        /* border: 1px solid red; */
+    }
+    .App .slide .content.skills .bot .line {
+        margin-bottom: 1.5rem;
+        width: 100%;
+        /* padding: 1rem; */
+        /* border: 1px solid red; */
     }
 }
 
