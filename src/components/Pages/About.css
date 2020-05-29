@@ -5,7 +5,6 @@
     align-items: center;
     z-index: 60;
     width: 100%;
-    /* height: 100vh; */
     overflow-x: hidden;
     position: relative;
 }
@@ -14,7 +13,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* animation: top 0.4s cubic-bezier(0.42, 0, 1, 1.74); */
     text-align: center;
 }
 
@@ -26,7 +24,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* animation: bot 0.4s cubic-bezier(0.42, 0, 1, 1.74); */
     text-align: center;
 }
 
@@ -43,12 +40,6 @@
 
 .App .slide .contentM .bot .button:hover {
     transform: scale(1.2);
-}
-
-@media screen and (max-width: 520px) {
-    #root > div > div > div > div.awssld__controls {
-        /* visibility: visible; */
-    }
 }
 
 /* mobile */

@@ -55,7 +55,7 @@ const Skills = () => {
                                 width="85"
                                 style={{
                                     backgroundColor: "white",
-                                    borderRadius: "5px"
+                                    borderRadius: "5px",
                                 }}
                             />
                             <img
@@ -64,7 +64,7 @@ const Skills = () => {
                                 width="85"
                                 style={{
                                     backgroundColor: "white",
-                                    borderRadius: "5px"
+                                    borderRadius: "5px",
                                 }}
                             />
                             <img
@@ -73,7 +73,7 @@ const Skills = () => {
                                 width="85"
                                 style={{
                                     backgroundColor: "white",
-                                    borderRadius: "5px"
+                                    borderRadius: "5px",
                                 }}
                             />
                             <img
@@ -82,7 +82,7 @@ const Skills = () => {
                                 width="85"
                                 style={{
                                     backgroundColor: "white",
-                                    borderRadius: "5px"
+                                    borderRadius: "5px",
                                 }}
                             />
                             <img
@@ -91,7 +91,7 @@ const Skills = () => {
                                 width="85"
                                 style={{
                                     backgroundColor: "white",
-                                    borderRadius: "5px"
+                                    borderRadius: "5px",
                                 }}
                             />
                             <img src={boot} alt="boot logo" width="85" />
@@ -103,7 +103,7 @@ const Skills = () => {
                                 width="85"
                                 style={{
                                     backgroundColor: "white",
-                                    borderRadius: "5px"
+                                    borderRadius: "5px",
                                 }}
                             />
                             {/* <img src={node} alt="node logo" width="85" /> */}
@@ -126,7 +126,7 @@ const Skills = () => {
                                 width="85"
                                 style={{
                                     backgroundColor: "white",
-                                    borderRadius: "5px"
+                                    borderRadius: "5px",
                                 }}
                             />
                             <img src={ts} alt="ts logo" width="85" />
@@ -167,7 +167,7 @@ const Skills = () => {
 
                     <div className="line">
                         <h3>
-                            Ranked in Top-500 on{" "}
+                            Ranked in Top-400 on{" "}
                             <a
                                 href="https://www.codewars.com/users/leaderboard"
                                 target="_blank"
