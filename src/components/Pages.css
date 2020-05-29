@@ -109,6 +109,11 @@
 @media screen and (max-width: 600px) {
     .App .slide .content {
         padding: 0.2rem;
+        /* border: 1px solid red; */
+    }
+    .App .slide .content.skills {
+        padding: 2rem 0.2rem 0.2rem 0.2rem;
+        /* border: 1px solid red; */
     }
     .App .slide .content.contacts {
         padding: 3rem;
