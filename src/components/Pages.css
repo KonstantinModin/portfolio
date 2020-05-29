@@ -1,25 +1,12 @@
-.App .slide {
-    /* display: flex; */
-    /* height: 100vh; */
-    /* display: block; */
-    /* overflow: scroll; */
-    /* border: 1px solid greenyellow; */
-}
-
 .App .slide .content {
-    /* border: 1px solid red; */
     padding: 2rem 2rem 6rem 2rem;
-    /* margin-top: 2rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 60;
-    /* overflow-y: scroll; */
-    /* border: 1px solid red;     */
     width: 100%;
     height: 100vh;
     overflow-x: hidden;
-    /* overflow-y: scroll; */
     position: relative;
     top: 4rem;
 }
@@ -28,7 +15,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* animation: top 0.4s cubic-bezier(0.42, 0, 1, 1.74); */
     text-align: center;
 }
 
@@ -36,7 +22,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* animation: bot 0.4s cubic-bezier(0.42, 0, 1, 1.74); */
     text-align: center;
 }
 
@@ -45,22 +30,6 @@
     align-items: center;
     margin: 1rem;
 }
-
-/* .App .slide .content .bot .button {
-    margin: 1rem;
-    padding: 0.8rem 3rem;
-    background: rgba(255, 255, 255, 0.103);
-    border: 2px solid white;
-    border-radius: 5px;
-    color: white;
-    font-size: 1.5rem;
-    transition: 0.1s cubic-bezier(0.42, 0, 1, 1.74);
-} */
-
-/* .App .slide .content .bot .button:hover {
-    transform: scale(1.2);
-    border: 1px solid red;
-} */
 
 .App .slide .content .bot .row div {
     display: flex;
@@ -76,12 +45,10 @@
     align-items: center;
     flex-direction: column;
     margin-bottom: 1rem;
-    /* border: 1px solid red;     */
 }
 
 .App .slide .content.skills .bot .line {
     margin-bottom: 0.5rem;
-    /* border: 1px solid red;     */
 }
 
 .App .slide .content .bot .line .tech {
@@ -118,12 +85,6 @@
     transform: scale(1.2);
 }
 
-.App .slide .content img.avat {
-    /* width: 200px; */
-    /* border-radius: 5px; */
-    /* box-shadow: 3px 3px 10px rgb(255, 255, 255); */
-}
-
 .App .slide .content p {
     padding: 1rem 10rem 0 10rem;
 }
@@ -136,50 +97,7 @@
     object-fit: cover;
     position: fixed;
     z-index: 50;
-    /* animation: zoom 30s infinite; */
 }
-
-/* @keyframes zoom {
-    0% {
-        transform: scale(1.1) translateX(0) translateY(-1%);
-    }
-    25% {
-        transform: scale(1.15) translateX(2%) translateY(-2%);
-    }
-    50% {
-        transform: scale(1.2) translateX(4%) translateY(0);
-    }
-    75% {
-        transform: scale(1.15) translateX(2%) translateY(-2%);
-    }
-    100% {
-        transform: scale(1.1) translateX(0) translateY(-1%);
-    }
-}
-
-@keyframes top {
-    0% {
-        transform: translateY(-100%);
-    }
-    50% {
-        transform: translateY(-100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes bot {
-    0% {
-        transform: translateY(100%);
-    }
-    50% {
-        transform: translateY(100%);
-    }
-    100% {
-        transform: translateY(0);
-    }
-} */
 
 @media screen and (max-width: 520px) {
     #root > div > div > div > div.awssld__controls {
@@ -194,7 +112,6 @@
     }
     .App .slide .content.contacts {
         padding: 3rem;
-        /* border: 1px solid red; */
     }
     .App .slide .content .top {
         margin-top: 2rem;
@@ -237,7 +154,6 @@
     }
     .App .slide .content.skills .bot .line img {
         margin: 0.4rem;
-        /* border: 1px solid red; */
     }
 }
 
@@ -253,7 +169,6 @@
     .App .slide .content .bot h3,
     h2 {
         font-size: 1rem;
-        /* font-weight: 100; */
     }
     .App .slide .content .bot .line h2 {
         font-size: 1.2rem;
@@ -263,13 +178,10 @@
     }
     .App .slide .content.skills .bot .line img {
         margin: 0.2rem;
-        /* border: 1px solid red; */
     }
     .App .slide .content.skills .bot .line {
         margin-bottom: 1.5rem;
         width: 100%;
-        /* padding: 1rem; */
-        /* border: 1px solid red; */
     }
 }
 
