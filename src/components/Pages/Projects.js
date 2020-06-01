@@ -10,7 +10,7 @@ const Projects = () => {
             <img className="back" src={back3} alt="back3" />
             <div className="content">
                 <div className="top hide">
-                    <h1>Projects:</h1>
+                    <h3>Projects:</h3>
                 </div>
                 <div className="bot">
                     <a
@@ -22,10 +22,10 @@ const Projects = () => {
                             <img src={proj1} alt="project1 logo" />
                             <div>
                                 <h3>Real Estate Agency Website</h3>
-                                <h5>
+                                <h6>
                                     Real Estate for sell, for rent, excursions
                                     information, etc.{" "}
-                                </h5>
+                                </h6>
                             </div>
                         </div>
                     </a>
@@ -38,11 +38,11 @@ const Projects = () => {
                             <img src={proj2} alt="project2 logo" />
                             <div>
                                 <h3>React experiments</h3>
-                                <h5>
+                                <h6>
                                     Some home projects with React/Redux
                                     including data fetching, routing, lazy
                                     loading, etc. Available on my Github page.
-                                </h5>
+                                </h6>
                             </div>
                         </div>
                     </a>

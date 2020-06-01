@@ -108,7 +108,7 @@
 /* mobile */
 @media screen and (max-width: 600px) {
     .App .slide .content {
-        padding: 0.2rem;
+        padding: 0.7rem;
         /* border: 1px solid red; */
     }
     .App .slide .content.skills {
@@ -159,6 +159,11 @@
     }
     .App .slide .content.skills .bot .line img {
         margin: 0.4rem;
+    }
+    .App .slide .content .bot .line h6 {
+        font-weight: 100;
+        margin: 0.2rem;
+        /* color: red; */
     }
 }
 

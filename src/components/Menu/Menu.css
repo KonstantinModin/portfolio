@@ -29,7 +29,7 @@
     transform: scale(1.05);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 990px) {
     .App .menu {
         background: rgba(255, 255, 255, 0.5);
         height: 58px;
