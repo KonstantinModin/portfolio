@@ -1,22 +1,22 @@
 # Konstantin Modin - Portfolio
 
-Here is my portfolio as a React Front-End Web Developer.
+Here is my portfolio as Full-stack Web Developer.
 
 ## I used here:
 
--   react-awesome-slider with navigation
--   react-bootstrap
+- react-awesome-slider with navigation
+- react-bootstrap
 
 ## Authors
 
--   Konstantin Modin
--   https://github.com/KonstantinModin
--   konstantin.v.modin@gmail.com
+- Konstantin Modin
+- https://github.com/KonstantinModin
+- konstantin.v.modin@gmail.com
 
 ## Version History
 
--   2.0 - Updates
--   1.0 - Initial Release
+- 2.0 - Updates
+- 1.0 - Initial Release
 
 ## This project on web
 
